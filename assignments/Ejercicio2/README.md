@@ -2,7 +2,9 @@
 # Ejercicio 2 del examen parcial AD2021
 Ciclos - Suma de números entre -100 y 100 que nos proporciona el usuario
 
-Escribe un programa que reciba números positivos y negativos, deberá sumar sólo aquellos que estén entre -100 y 100 (límites inclusive). El programa debe terminar de recibir números si recibe un 0.
+Escribe un programa que reciba n números positivos y negativos, deberá sumar sólo aquellos que estén entre -100 y 100 (límites inclusive). 
+
+El programa debe preguntar cuántos números va a recibir del usuario, si la cantidad de números es 0 o menor deberá mandar el mensaje *La cantidad de números debe ser mayor a 0* de lo contrario recibe los números y suma aquellos que estén entre -100 y 100 (límites inclusive) y despliega el resultado de la suma (ve el ejemplo).
 
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
@@ -16,16 +18,22 @@ if __name__ == '__main__':
     main()
 ```
 
-Ejemplo de corrida:
+**Ejemplo de corrida:**
 
 ```
-Número: -65
-Número: 100
-Número: -10
-Número: 1200
-Número: 50
-Número: 0
+Cantidad de números: 5
+Número 1: -65
+Número 2: 100
+Número 3: -10
+Número 4: 1200
+Número 5: 50
 La suma de números entre -100 y 100 es: 75
+```
+
+**Otro ejemplo**
+```
+Cantidad de números: 0
+La cantidad de números debe ser mayor a 0
 ```
 
 
