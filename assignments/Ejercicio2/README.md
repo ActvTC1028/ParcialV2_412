@@ -4,7 +4,9 @@ Ciclos - Suma de números entre -100 y 100 que nos proporciona el usuario
 
 Escribe un programa que reciba n números positivos y negativos, deberá sumar sólo aquellos que estén entre -100 y 100 (límites inclusive). 
 
-El programa debe preguntar cuántos números va a recibir del usuario, si la cantidad de números es 0 o menor deberá mandar el mensaje *La cantidad de números debe ser mayor a 0* de lo contrario recibe los números y suma aquellos que estén entre -100 y 100 (límites inclusive) y despliega el resultado de la suma (ve el ejemplo).
+El programa debe preguntar cuántos números va a recibir del usuario, si la cantidad de números es 0 o menor deberá mandar el mensaje *La cantidad de números debe ser mayor a 0* de lo contrario recibe los números y suma aquellos que estén entre -100 y 100 (límites inclusive) y despliega el resultado de la suma (ve el ejemplo). 
+
+En el ejemplo observa que la solicitud de los números está numerada (Número 1: , Número 2, etc...) Así debe ser el mensaje de ingreso de datos.
 
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
